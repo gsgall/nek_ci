@@ -21,7 +21,7 @@ mesh_width = 0.0193145
 
 [Postprocessors]
   [heat_flux]
-    type = NekHeatFluxIntegral
+    type = NekDiffusiveFluxIntegral
     boundary = '1'
   []
   [nusselt]
