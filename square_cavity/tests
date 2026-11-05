@@ -6,7 +6,7 @@
     rel_err = 1e-5
 
     capabilities = 'nekrs'
-    design = 'NekRSProblem.md NekRSMesh.md NekTimeStepper.md NekHeatFluxIntegral.md'
+    design = 'NekRSProblem.md NekRSMesh.md NekTimeStepper.md NekDiffusiveFluxIntegral.md'
 
     min_parallel = 8
     heavy = true
